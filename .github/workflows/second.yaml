@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Get Code
         uses: actions/checkout@v4.0.0
+      - name: Node Version
+        run: node --version        
       - name: Install node modules
         run: cd second-action && npm install && cd -
       - name: LS
