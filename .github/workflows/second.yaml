@@ -1,5 +1,5 @@
 name: Els
-on: workflow_dispatch
+on: push
 jobs:
   fist_job:
     runs-on: ubuntu-latest
