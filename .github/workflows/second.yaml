@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
-        uses: actions/checkout@4.0.0
+        uses: actions/checkoutv4.0.0
       - name: Install node modules
         run: cd second-action && npm install && cd -
       - name: LS
